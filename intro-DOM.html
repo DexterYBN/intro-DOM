@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Super App</title>
+</head>
+
+<body>
+
+    <script>
+        let div = document.createElement('div')
+        div.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, illum ullam? Praesentium quasi amet repellat sequi facilis provident?'
+        div.style.maxWidth = "600px"
+        div.style.width = "100%"
+        div.style.margin = "auto"
+        div.style.marginBottom = "20px"
+        div.style.textAlign = "start"
+        div.style.border = "2px solid brown"
+        div.style.borderRadius = "15px"
+        div.style.padding = "20px"
+
+        document.body.style.textAlign = "center"
+        document.body.style.fontSize = "24px"
+
+        let instagram = document.createElement('a')
+        instagram.textContent = "instagram"
+        instagram.href = "https://instagram.com"
+        document.body.append(instagram)
+
+        let google = document.createElement('a')
+        google.textContent = "google"
+        google.href = "https://google.ru"
+        google.style.padding = "0 150px"
+        document.body.prepend(google)
+
+        let intocode = document.createElement('a')
+        intocode.textContent = "intocode"
+        intocode.href = "https://intocode.ru"
+        document.body.prepend(intocode)
+
+        document.body.prepend(div)
+    </script>
+
+</body>
+
+</html>
